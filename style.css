@@ -1,0 +1,15 @@
+ul {color: gray;}
+li {color: green;}
+
+body {background-image: url (http://i63.tinypic.com/w8qfjq.jpg); background-position:center center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  background-color:#999;
+}
+
+#greeting {color:gray;
+align-self: center;}
+
+ul {align-self: center;
+align-items: center;}
