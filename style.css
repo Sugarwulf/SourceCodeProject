@@ -1,7 +1,10 @@
-ul {color: gray;}
+ul {color: gray; align-self: center;
+align-items: center;}
+
 li {color: green;}
 
-body {background-image: url (http://i63.tinypic.com/w8qfjq.jpg); background-position:center center;
+body {background-image: url ("http://i63.tinypic.com/w8qfjq.jpg");
+  background-position:center center;
   background-repeat:no-repeat;
   background-attachment:fixed;
   background-size:cover;
@@ -11,5 +14,9 @@ body {background-image: url (http://i63.tinypic.com/w8qfjq.jpg); background-posi
 #greeting {color:gray;
 align-self: center;}
 
-ul {align-self: center;
-align-items: center;}
+ul, li{
+    list-style:none;
+    list-style-type:none; }
+
+.label {text-decoration: line-through;  
+}

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
  <head>
-<link rel="stylesheet" src="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" src="style.css">
+
  </head>
 
  <body>
@@ -13,35 +14,35 @@
   <h3>Shopping list</h3>
   <ul>
     <li>
-      <input type="checkbox" id="chicken" name="chicken" value="Rotisserie chicken">
+      <input type="checkbox" id="chicken" name="chicken" onclick="lineThough()"; value="Rotisserie chicken">
       <label for="chicken">Rotisserie chicken</label>
     </li>
     <li>
-      <input type="checkbox" id="bacon" name="bacon" value="Diced bacon">
+      <input type="checkbox" id="bacon" name="bacon" onclick="lineThough()" value="Diced bacon">
       <label for="bacon">Diced bacon</label>
     </li>
     <li>
-      <input type="checkbox" id="shrooms" name="shrooms" value="Mushrooms">
+      <input type="checkbox" id="shrooms" name="shrooms" onclick="lineThrough()" value="Mushrooms">
       <label for="shrooms">Mushrooms</label>
     </li>
     <li>
-      <input type="checkbox" id="cream" name="cream" value="Heavy whipping cream">
+      <input type="checkbox" id="cream" name="cream" onclick="lineThrough()" value="Heavy whipping cream">
       <label for="cream">Heavy whipping cream</label>
     </li>
     <li>
-      <input type="checkbox" id="chili"  name= "chili" value="Chili sauce">
+      <input type="checkbox" id="chili"  name= "chili" onclick="lineThrough()" value="Chili sauce">
       <label for="chili">Chili sauce</label>
     </li>
     <li>
-      <input type="checkbox" id="curry" name="curry" value="Yellow curry powder">
+      <input type="checkbox" id="curry" name="curry" onclick="lineThrough()" value="Yellow curry powder">
       <label for="curry">Yellow curry powder</label>
     </li>
     <li>
-      <input type="checkbox" id="nana" name="nana" value="Banana">
+      <input type="checkbox" id="nana" name="nana" onclick="lineThrough()" value="Banana">
       <label for="nana">Banana</label>
     </li>
     <li>
-      <input type="checkbox" id="nuts" name="nuts" value="Peanuts">
+      <input type="checkbox" id="nuts" name="nuts" onclick="lineThrough()" value="Peanuts">
       <label for="nuts">Peanuts</label>
     </li>
   </ul>
@@ -49,6 +50,6 @@
   <nav>
   </nav>
   </footer>
- <script src="/bower_components/bootstrap/dist/bootstrap.min.js"></script>
+ <script src="script.js" type= "text/javascript"></script>
  </body>
 </html>
