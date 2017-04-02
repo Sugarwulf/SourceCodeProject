@@ -1,10 +1,10 @@
-function lineThrough ();  {
+function lineThrough();  {
 
-var myCheckBoxes = document.getElementByTagName("checkbox");
-var myLabels = document.getElementByTagName("label");
+var myCheckBoxes = document.getElementByTagName("checkbox").classList;
+var myLabels = document.getElementByTagName("label").classList;
 
-if myCheckBoxes.checked {myLabels.add(text-decoration: line-through;)
-} else {myLabels.remove(text-decoration: line-through;)
+if myCheckBoxes.checked {myLabels.add("line-through");
+} else {myLabels.remove("line-through");
    }
 
 }
