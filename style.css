@@ -11,16 +11,18 @@ body {background-image: url ("http://i63.tinypic.com/w8qfjq.jpg");
   background-color:#999;
 }
 
+#tesla {width:200px;height:200px;}
+
 #greeting {color:black;
 text-align:center;}
 
 #heading {text-align: center;
 }
-.table
+
 
 ul, li{
     list-style:none;
     list-style-type:none; }
 
-.line-through {text-decoration: line-through;
+.label {text-decoration: line-through;
 }

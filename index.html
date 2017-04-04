@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
  <head>
+
+<img id = "telsa"src="http://i63.tinypic.com/w8qfjq.jpg" border="0" alt="Gray Model S">
+
 <link rel="stylesheet" href="style.css">
 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -8,54 +11,55 @@
  </head>
 
  <body>
+
   <header>
    <nav>
    </nav>
-   <div>
+
      <h1 id ="greeting">Hello World</h1>
-   </div>
+
   </header>
   <h3 id="heading">Shopping list</h3>
-<div>
+
   <ul>
     <li>
-      <input type="checkbox" id="chicken" name="chicken" onclick="lineThrough()"; value="Rotisserie chicken">
-      <label for="chicken">Rotisserie chicken</label>
+      <input type="checkbox" name="chicken" onclick="lineThrough('chick')"; value="Rotisserie chicken">
+      <label for="chicken" id="chick">Rotisserie chicken</label>
     </li>
     <li>
-      <input type="checkbox" id="bacon" name="bacon" onclick="lineThrough()" value="Diced bacon">
-      <label for="bacon">Diced bacon</label>
+      <input type="checkbox" name="bacon" onclick="lineThrough('bacn')"; value="Diced bacon">
+      <label for="bacon" id="bacn">Diced bacon</label>
     </li>
     <li>
-      <input type="checkbox" id="shrooms" name="shrooms" onclick="lineThrough()" value="Mushrooms">
-      <label for="shrooms">Mushrooms</label>
+      <input type="checkbox" name="shrooms" onclick= "lineThrough('mush')"; value="Mushrooms">
+      <label for="shrooms" id="mush">Mushrooms</label>
     </li>
     <li>
-      <input type="checkbox" id="cream" name="cream" onclick="lineThrough()" value="Heavy whipping cream">
-      <label for="cream">Heavy whipping cream</label>
+      <input type="checkbox" name="cream" onclick= "lineThrough('ic')"; value="Heavy whipping cream">
+      <label for="cream" id="ic">Heavy whipping cream</label>
     </li>
     <li>
-      <input type="checkbox" id="chili"  name= "chili" onclick="lineThrough()" value="Chili sauce">
-      <label for="chili">Chili sauce</label>
+      <input type="checkbox"  name= "chili" onclick= "lineThrough('sauce')"; value="Chili sauce">
+      <label for="chili" id="sauce">Chili sauce</label>
     </li>
     <li>
-      <input type="checkbox" id="curry" name="curry" onclick="lineThrough()" value="Yellow curry powder">
-      <label for="curry">Yellow curry powder</label>
+      <input type="checkbox" name="curry" onclick= "lineThrough('yellow')"; value="Yellow curry powder">
+      <label for="curry" id="yellow">Yellow curry powder</label>
     </li>
     <li>
-      <input type="checkbox" id="nana" name="nana" onclick="lineThrough()" value="Banana">
-      <label for="nana">Banana</label>
+      <input type="checkbox" name="nana" onclick= "lineThrough('ban')"; value="Banana">
+      <label for="nana" id="ban">Banana</label>
     </li>
     <li>
-      <input type="checkbox" id="nuts" name="nuts" onclick="lineThrough()" value="Peanuts">
-      <label for="nuts">Peanuts</label>
+      <input type="checkbox" name="nuts" onclick="lineThrough('pn')"; value="Peanuts">
+      <label for="nuts" id="pn">Peanuts</label>
     </li>
   </ul>
-</div>
+
   <footer>
   <nav>
   </nav>
   </footer>
- <script src="script.js" type= "text/javascript"></script>
+ <script src="script.js" type="text/javascript"></script>
  </body>
 </html>
